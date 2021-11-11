@@ -1,0 +1,5 @@
+a = int(input("suku pertama: "))
+r = int(input("besar rasio: "))
+n = int(input("suku ke- : "))
+Sn = (a*(r**n)-1)//(r-1)
+print("jumlah suku ke-11 dari deret 1,3,9,27,81,.. adalah",Sn)
